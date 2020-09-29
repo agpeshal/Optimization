@@ -1,5 +1,4 @@
 # Optimization
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 We analyze some standard optimization techniques such Fixed Point method, Gradient Descent and Stochastic Gradient Descent.
 
 ## Solving Fixed Point Problems
@@ -12,7 +11,7 @@ We will solve two equations of this form: $$x = log(1+x)$$ and $$x = log(2+x)\,.
 
 ## Gradient Descent
 
-We perform gradient descent on [Concrete Compressive Strength Data Set](https://archive.ics.uci.edu/ml/datasets/Concrete+Compressive+Strength) Least squares estimation is one of the fundamental machine learning algorithms. Given an $ n \times d $ matrix $A$ and a $ n \times 1$ vector $b$, the goal is to find a vector $x \in \mathbb{R}^d$ which minimizes the objective function $$f(x) = \frac{1}{2n} \sum_{i=1}^{n} (a_i^\top x - b_i)^2 = \frac{1}{2n} \|Ax - b\|^2 $$
+We perform gradient descent on [Concrete Compressive Strength Data Set](https://archive.ics.uci.edu/ml/datasets/Concrete+Compressive+Strength) Least squares estimation is one of the fundamental machine learning algorithms. Given an $ n \times d $ matrix $A$ and a $ n \times 1$ vector $b$, the goal is to find a vector $x \in \mathbb{R}^d$ which minimizes the objective function  \begin{equation} f(x) = \frac{1}{2n} \sum_{i=1}^{n} (a_i^\top x - b_i)^2 = \frac{1}{2n} \|Ax - b\|^2  \end{equation} 
 
 We will try to fit $x$ using Least Squares Estimation. One can see the function is $L$ smooth with $L = \frac1n\|A\|^2$
 
