@@ -1,5 +1,5 @@
 # Optimization
-
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 We analyze some standard optimization techniques such Fixed Point method, Gradient Descent and Stochastic Gradient Descent.
 
 ## Solving Fixed Point Problems
